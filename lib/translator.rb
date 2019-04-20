@@ -2,9 +2,9 @@
 require "yaml"
 require "pry"
 
-def load_library
+def load_library(path)
   # code goes here
-  emoticons_lib = YAML.load_file('./lib/emoticons.yml')
+  emoticons_lib = YAML.load_file(path)
   emoticons_lib
 end
 
