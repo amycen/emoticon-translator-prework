@@ -5,7 +5,7 @@ require "./emoticons.yml"
 
 def load_library
   # code goes here
-  emoticons = YAML.load_file('./emoticons.yml')
+  emoticons = YAML.load_file('emoticons.yml')
   emoticons
   binding.pry
 end
