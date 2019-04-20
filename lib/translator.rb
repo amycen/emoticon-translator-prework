@@ -6,7 +6,6 @@ def load_library
   # code goes here
   emoticons = YAML::load(File.open('./lib/emoticons.yml'))
   emoticons
-  binding.pry
 end
 
 def get_japanese_emoticon
