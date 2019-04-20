@@ -1,5 +1,5 @@
 # require modules here
-require "YAML"
+require "yaml"
 require "pry"
 require_relative "./emoticons.yml"
 
