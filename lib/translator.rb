@@ -5,7 +5,7 @@ require_relative "./emoticons.yml"
 
 def load_library
   # code goes here
-  emoticons = YAML.load_file('emoticons.yml')
+  emoticons = YAML::load(File.open('emoticons.yml'))
   emoticons
   binding.pry
 end
